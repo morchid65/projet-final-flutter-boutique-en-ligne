@@ -1,0 +1,1 @@
+*.exe\n*.dll\n*.pdb\n/build\n/testing_app/build\n/testing_app/.dart_tool\n/.dart_tool\n/windows/flutter/ephemeral/\n/testing_app/windows/flutter/ephemeral/
