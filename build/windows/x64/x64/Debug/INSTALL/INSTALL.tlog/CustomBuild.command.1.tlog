@@ -1,0 +1,10 @@
+^C:\USERS\JEBRIL.FOITIH\PROJET-FINALE-FLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\5ABA6DA4E611B6EF2C04F3F104D5CC30\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
